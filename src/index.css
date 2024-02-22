@@ -1,0 +1,75 @@
+:root {
+    /* color variables */
+    --sulfuric: #F1EA55;
+    --sulfuric_10: #fefdee;
+    --sulfuric_30: #f5f088;
+    --sulfuric_60: #a9a43b;
+    --galactic: #443185;
+    --galactic_10: #eceaf3;
+    --galactic_30: #7c6faa;
+    --galactic_60: #30225d;
+    --buster: #3E4C6A;
+    --slate: #5E6F92;
+    --pencil: #5b6374;
+    --pelagic: #315f85;
+    --white: #ffffff;
+    --black: #0000000;
+    --flash: #F1F3F5;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: var(--galactic_60);
+    background-color: var(--sulfuric_10);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    font-weight: 500;
+    color: var(--galactic_60);
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: var(--pelagic);
+}
+
+body {
+    margin: auto;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    max-width: 1500px;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--galactic_10);
+    background-color: var(--galactic);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    background-color: var(--galactic_30);
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
