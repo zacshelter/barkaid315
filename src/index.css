@@ -31,12 +31,12 @@
 
 a {
     font-weight: 500;
-    color: var(--galactic_60);
+    color: var(--galactic_30);
     text-decoration: inherit;
 }
 
 a:hover {
-    color: var(--pelagic);
+    color: var(--galactic_60);
 }
 
 body {

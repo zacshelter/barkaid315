@@ -1,10 +1,10 @@
 import {Splash} from "./Splash";
-import {Banner} from "./Banner";
+import {Nav} from "./Nav";
 
 function App() {
   return (
     <>
-      <Banner/>
+      <Nav/>
       <Splash/>
     </>
   )
